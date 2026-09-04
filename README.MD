@@ -1,59 +1,78 @@
 # Open Source Contribution Tracker
 
-A web-based application for tracking and managing open-source software contributions.
+A web-based application for tracking open-source projects, contributors, issues, contributions, and pull requests.
 
-## About the Project
+The project is being developed as a practical open-source software project to learn and demonstrate software development, backend development, databases, Git, GitHub, testing, and open-source development practices.
 
-The Open Source Contribution Tracker is designed to help developers keep track of their contributions to open-source projects.
+---
 
-Users will eventually be able to record projects, issues, pull requests, contribution types, statuses, and other relevant information.
+## 🚧 Project Status
 
-This project is also being developed as a practical learning project to explore:
+Current Phase: **Phase 2 — Backend Foundation**
 
-* Open-source software development
-* Git and GitHub
-* Software engineering practices
-* Backend development
-* Frontend development
-* Databases
-* Testing
-* CI/CD
-* Collaboration and code review
+The backend foundation has been implemented using Java, Spring Boot, Spring Data JPA, and PostgreSQL.
 
-## Planned Features
+---
 
-* User registration and login
-* Open-source project management
-* Contribution tracking
-* Issue tracking
-* Pull request tracking
-* Contribution status management
-* Dashboard
-* Search and filtering
-* REST API
-* Automated testing
-* Continuous integration
+## 🎯 Project Goals
 
-## Technologies
+The Open Source Contribution Tracker aims to provide a platform where users can:
 
-The planned technology stack includes:
+- Manage contributor profiles
+- Track open-source projects
+- Track issues
+- Record contributions
+- Track pull requests
+- View contribution information
+- Manage project-related data
 
-* Java
-* Spring Boot
-* PostgreSQL
-* React
-* Git
-* GitHub
-* GitHub Actions
+Future phases will expand the system with additional functionality and improve its usability.
 
-## Project Status
+---
 
-🚧 This project is currently under development.
+## 🛠️ Technologies
 
-## License
+### Backend
 
-This project is licensed under the MIT License.
+- Java
+- Spring Boot
+- Spring Data JPA
+- Maven
 
-## Current Phase
+### Database
 
-Phase 1 - Open Source Foundation
+- PostgreSQL
+- Hibernate / JPA
+
+### Testing
+
+- JUnit
+- Mockito
+
+### Development Tools
+
+- Visual Studio Code
+- Postman
+- Git
+- GitHub
+
+---
+
+## 🏗️ Backend Architecture
+
+The backend follows a layered architecture:
+
+
+Client
+   │
+   ▼
+Controller
+   │
+   ▼
+Service
+   │
+   ▼
+Repository
+   │
+   ▼
+PostgreSQL Database
